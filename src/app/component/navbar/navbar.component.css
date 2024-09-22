@@ -1,0 +1,68 @@
+.navbar {
+  position: relative;
+  width: 100%;
+  height: 105px;
+  background: linear-gradient(
+    90deg,
+    #ff4d00 0%,
+    #fd6108 18.34%,
+    #fb7e14 52.59%,
+    #f99d20 100%
+  );
+  display: flex;
+  justify-content: center;
+}
+
+.logo {
+  position: relative;
+  margin-top: 10px;
+}
+
+.nav-items {
+  position: relative;
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  margin: auto;
+  padding-top: 30px;
+}
+
+.nav-items a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: color 0.3s ease;
+}
+
+
+.logo {
+  position: absolute;
+  width: 138px;
+  height: 77.72px;
+  top: 0%;
+  left: 10px;
+}
+
+.user {
+  position: absolute;
+  right: 65px;
+  cursor: pointer;
+  display: flex;
+  gap: 25px;
+}
+
+.app-search {
+  position: relative;
+  top: 45px;
+}
+
+.icon-user {
+  position: relative;
+  top: 38px;
+  width: 47px;
+  height: 47px;
+}
