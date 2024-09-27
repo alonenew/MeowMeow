@@ -7,18 +7,13 @@ import en from '@angular/common/locales/en';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { SearchComponent } from './component/search/search.component';
-import { NavbarComponent } from './component/navbar/navbar.component';
-import { LogoComponent } from './component/logo/logo.component';
+import { SharedModule } from './shared/shared.module';
 
 registerLocaleData(en);
 
 @NgModule({
   declarations: [
-    AppComponent,
-    SearchComponent,
-    NavbarComponent,
-    LogoComponent
+    AppComponent
   ],
   imports: [
     BrowserModule,
@@ -26,7 +21,7 @@ registerLocaleData(en);
     FormsModule,
     HttpClientModule,
     BrowserAnimationsModule,
-    HttpClientModule
+    SharedModule
   ],
   providers: [
   ],
